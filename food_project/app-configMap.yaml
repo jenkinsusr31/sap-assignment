@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: database-creation
+data: 
+  mysql_djangoapp.sql: |-
+    DROP DATABASE IF EXISTS djangoappDB;
+    CREATE DATABASE djangoappDB;
