@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/mohammad-ammar31/sap-assignment.git
+    repoURL: git@github.com:mohammad-ammar31/sap-assignment.git
     targetRevision: HEAD
     path: manifests
   destination:
